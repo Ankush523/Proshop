@@ -10,15 +10,12 @@ const users = [
         name: 'Johnny',
         email: 'john@example.com',
         password: bcrypt.hashSync('123456',10),
-        password: xxxx,
     
     },
     {
         name: 'Jane',
         email: 'jane@example.com',
-        password: bcrypt.hashSync('123456',10),
-        password: xxxx,
-        
+        password: bcrypt.hashSync('123456',10)      
     }
 ]
  export default users
